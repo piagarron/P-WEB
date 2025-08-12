@@ -5,7 +5,7 @@ let pais = "Argentina";
 let edad = "19"
 
 
-
+prueba// Imprime las variables
 
 //2. Declara tres variables numéricas. Calcula el promedio de las tres y encuentra 
 //el residuo de la división de la suma total entre 2. Imprime los resultados.
