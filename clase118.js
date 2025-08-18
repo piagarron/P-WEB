@@ -36,17 +36,33 @@ let coche = {
 // actualizado.
 
 const ciudades = ["Tokio", "Praga", "Estocolmo", "Lima","Seul"]
-const ciudades[2] = "Buenos Aires"
+ciudades[2] = "Buenos Aires"
+console.log(ciudades)
 
 
 //5. Crea un array de 3 objetos que representen películas, cada una con título,
 //director y año de lanzamiento. Imprime el director de la última película.
 
-const peliculas = 
+let pelicula_uno = {titulo:"Mamma Mia", director:"Phyllida Lloyd", anio:2008}
+
+let pelicula_dos = {titulo:"Un viernes de locos", director:"Mark Waters", anio:2003}
+
+let pelicula_tres = {titulo:"El gran showman", director:"Michael Gracey", anio:2017}
+
+const peliculas = [pelicula_uno, pelicula_dos, pelicula_tres]
+console.log(peliculas[2].director)
+
+
+
 
 //6. Declara tres variables booleanas y usa operadores lógicos para 
 // verificar si al menos dos son verdaderas. Imprime true o false en
-//la consola dependiendo del resultado.
+//la consola dependiendo del resultado. 
+let x = 1
+let y = 5
+let z = 25                      //???????
+
+console.log(x > y && y < z)
 
 
 
@@ -56,19 +72,39 @@ const peliculas =
 //  segundo número es distinto al tercero. Imprime los resultados de las 
 // comparaciones.
 
+let a = 19
+let b = 9
+let c = 15
+console.log(a > b && a < c)     //TOMA SOLO LO PRIMERO???
+console.log(b != c)
+
+
+
 //8. Declara dos variables que almacenen strings (por ejemplo,
 //  tu nombre y tu apellido). Luego, crea una tercera variable que 
 // concatene las dos primeras y muestra el resultado en la consola.
+let nombre = "Pia"
+let apellido = "Garron"
+let nombreCompleto = nombre + " " + apellido 
+console.log(nombreCompleto)
+
 
 //9. Declara una variable numérica y utiliza los operadores de 
 // incremento (++) y decremento (--) para modificar su valor. Imprime
 // el valor de la variable después de cada operación.
+let p = 118
+console.log(p++) //??????
+
 
 //10. Crea un objeto que represente un estudiante con propiedades
 //  como nombre, edad y carrera. Accede e imprime cada propiedad del objeto.
 
+let estudiante = {nombre: "Pia", edad: 19, carrera: "Negocios"}
+console.log(estudiante.nombre, estudiante.edad, estudiante.carrera)
+
 //11. Crea un array que contenga dos arrays internos, cada uno con 3 números.
 // Accede al segundo elemento del primer array interno.
+
 
 //12. Declara dos variables numéricas y utiliza los operadores 
 // >, <, >=, <=, ===, !== para comparar sus valores. Imprime el
